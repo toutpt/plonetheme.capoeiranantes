@@ -1,0 +1,5 @@
+
+function initializeplonethemecapoeiranantes(){
+
+}
+jQuery(initializeplonethemecapoeiranantes);

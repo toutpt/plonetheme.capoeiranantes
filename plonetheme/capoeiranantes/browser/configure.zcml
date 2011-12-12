@@ -1,0 +1,32 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser"
+    i18n_domain="plonetheme.capoeiranantes">
+
+  <interface
+      interface=".interfaces.IThemeSpecific"
+      type="zope.publisher.interfaces.browser.IBrowserSkinType"
+      name="CapoeiraNantes Theme"
+      />
+  
+  <include package="plone.app.contentmenu" /> 
+  
+  <!-- EXAMPLE:
+  <browser:viewlet
+      name="plonetheme.someviewlet"
+      manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
+      class=".viewlets.MyViewlet"
+      layer=".interfaces.IThemeSpecific"
+      permission="zope2.View"
+      />
+  <browser:page
+      name="myview"
+      menu="plone_displayviews"
+      title="Galleria"
+      class=".myfile.MyView"
+      layer=".interfaces.IThemeSpecific"
+      permission="zope2.View"
+      />
+  -->
+
+</configure>

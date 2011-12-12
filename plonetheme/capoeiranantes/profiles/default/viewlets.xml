@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<object>
+  <order manager="plone.portalfooter" skinname="CapoeiraNantes Theme">
+<!-- EXAMPLE
+    <viewlet name="plonetheme.someviewlet"
+             insert-before="*" />
+-->
+  </order>
+
+  <hidden manager="plone.portalheader" skinname="CapoeiraNantes Theme">
+<!-- EXAMPLE:
+    <viewlet name="plone.global_sections" />
+-->
+  </hidden>
+
+</object>

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<object name="portal_skins" allow_any="False" cookie_persistence="False"
+   default_skin="CapoeiraNantes Theme">
+
+ <object name="plonetheme_capoeiranantes_custom"
+    meta_type="Filesystem Directory View"
+    directory="plonetheme.capoeiranantes:skins/plonetheme_capoeiranantes_custom"/>
+
+ <skin-path name="CapoeiraNantes Theme" based-on="Sunburst Theme">
+  <layer name="plonetheme_capoeiranantes_custom"
+     insert-after="custom"/>
+ </skin-path>
+
+</object>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<object name="portal_javascripts">
+
+ <javascript
+    id="++theme++plonetheme.capoeiranantes/js/theme.js"/>
+
+ <javascript
+    id="++theme++plonetheme.capoeiranantes/js/modernizr.js"/>
+
+</object>
