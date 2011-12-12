@@ -1,6 +1,5 @@
 Introduction
 ============
 
+The for Plone for the website capoeira-nantes.fr
 
-
-This product may contain traces of nuts.
