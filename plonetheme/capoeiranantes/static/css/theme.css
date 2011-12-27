@@ -2223,3 +2223,7 @@ div.overlay .formControls a {
     display: none;
 }
 /* @end */
+
+#portal-footer-links li{
+    display: block;
+}

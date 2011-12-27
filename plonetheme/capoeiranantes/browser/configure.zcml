@@ -11,14 +11,14 @@
   
   <include package="plone.app.contentmenu" /> 
   
-  <!-- EXAMPLE:
   <browser:viewlet
-      name="plonetheme.someviewlet"
+      name="plonetheme.capoeiranantes.footerlinks"
       manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
-      class=".viewlets.MyViewlet"
+      template="footer.pt"
       layer=".interfaces.IThemeSpecific"
       permission="zope2.View"
       />
+  <!-- EXAMPLE:
   <browser:page
       name="myview"
       menu="plone_displayviews"

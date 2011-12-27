@@ -33,6 +33,7 @@
 
 <!-- FOOTER -->
     <append css:content-children="#portal-footer" css:theme="#portal-footer" />
+    <after css:content="#portal-footer-links" css:theme="#portal-footer" />
     <append css:content-children="#portal-colophon" css:theme="#portal-colophon" />
     <append css:content-children="#portal-siteactions" css:theme="#portal-siteactions" />
 
