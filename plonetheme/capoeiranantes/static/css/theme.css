@@ -101,7 +101,7 @@ q {
 
 #portal-logo {
     display: inline-block;
-    margin: 1.375em 0;
+    margin: 5px 0;
 }
 /* removes extra space above logo in IE6 and IE7 */
 /* .ie6 and .ie7 is set on <html> by Modernizr library */
@@ -114,7 +114,7 @@ q {
 #portal-globalnav {
     clear: both;
     font-size: 80%;
-    background: #ddd;
+    background: #DAECE2;
     /* ensure top navigation dont touches portlets, content etc.. #10491 */
     margin: 0 10px 1em 10px;
 }
@@ -123,7 +123,7 @@ q {
 #portal-globalnav li a {
     display: inline-block;
     padding: 0.5em 1em 2em 1em;
-    background: #ddd;
+    background: #DAECE2;
     min-width: 6em;
     white-space: normal;
     /*TODO: Once we have removed the whitespace from the nav template, this can be put back*/
@@ -133,7 +133,7 @@ q {
 
 #portal-globalnav .selected a,
 #portal-globalnav a:hover {
-    background: #205c90;
+    background: #369F63;
     color: White;
 }
 #portal-globalnav .selected a:hover {
@@ -143,7 +143,7 @@ q {
 
 #portal-personaltools {
     float: right;
-    background: #e3e3e3;
+    background: #DAECE2;
     position: relative;
     z-index: 3; /* personaltools should be above #portal-header (with z-index: 2) */
     top: 0;
@@ -341,8 +341,9 @@ dl.portletError {
 dl.portlet dt,
 div.portletAssignments div.portletHeader {
     padding: 0.42em 1em;
-    background: #ddd;
+    background: #369F63;
     line-height: normal;
+    color: #fff;
 }
 dl.portlet dt.hiddenStructure {
     padding: 0;
@@ -2226,4 +2227,13 @@ div.overlay .formControls a {
 
 #portal-footer-links li{
     display: block;
+}
+#headline-wrapper{
+    font: small-caps bold 46px/42px georgia;
+}
+#headline{
+    font-size: 33px;
+}
+#subheadline{
+    font-size: 12px;
 }

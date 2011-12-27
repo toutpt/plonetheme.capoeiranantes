@@ -12,6 +12,13 @@
   <include package="plone.app.contentmenu" /> 
   
   <browser:viewlet
+      name="plonetheme.capoeiranantes.headline"
+      template="headline.pt"
+      manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+      layer=".interfaces.IThemeSpecific"
+      permission="zope2.View"
+      />
+  <browser:viewlet
       name="plonetheme.capoeiranantes.footerlinks"
       manager="plone.app.layout.viewlets.interfaces.IPortalFooter"
       template="footer.pt"
