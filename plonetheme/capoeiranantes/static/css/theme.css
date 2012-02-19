@@ -137,8 +137,6 @@ q {
     color: White;
 }
 #portal-globalnav .selected a:hover {
-    background: #ddd;
-    color: #205c90;
 }
 
 #portal-personaltools {
@@ -186,7 +184,7 @@ q {
     float: right;
     text-align: left;
     clear: right;
-    margin: 1.2em 0;
+    margin: 34px 0 0 0;
     font-size: 80%;
 }
 
@@ -383,7 +381,7 @@ a.managePortletsFallback {
     padding: 0.25em 0.5em;
     font-size: 80%;
     margin: 0 auto 1em;
-    background: #ddd;
+    background: #DAECE2;
     border-radius: 0.5em;
     -webkit-border-radius: 0.5em;
     -moz-border-radius: 0.5em;
@@ -976,7 +974,7 @@ dl.error dd {
     padding-top: 0.5em;
 }
 #portal-personaltools dd {
-    background: #e3e3e3;
+    background: #DAECE2;
     padding-bottom: 0.5em;
 }
 #portal-personaltools dd a {
@@ -984,7 +982,7 @@ dl.error dd {
     padding: 0 0.75em;
 }
 #portal-personaltools dd a:hover {
-    background: #205c90;
+    background: #369F63;
     color: White;
 }
 
@@ -2236,4 +2234,8 @@ div.overlay .formControls a {
 }
 #subheadline{
     font-size: 12px;
+}
+.portletOEmbed .oembed-video{
+    background-color: #ddd;
+    padding: 10px
 }

@@ -10,6 +10,7 @@
   <five:registerPackage package="." initialize=".initialize" />
 
   <include package=".browser" />
+  <include package=".upgrades" />
 
   <cmf:registerDirectory name="plonetheme_capoeiranantes_custom"/>
   <i18n:registerTranslations directory="locales" />

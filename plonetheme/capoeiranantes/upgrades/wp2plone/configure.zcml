@@ -1,0 +1,30 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    xmlns:transmogrifier="http://namespaces.plone.org/transmogrifier"
+    i18n_domain="plonetheme.capoeiranantes">
+  
+  <include package="collective.transmogrifier" file="meta.zcml"/>
+  <include package="collective.transmogrifier"/>
+  <include package="plone.app.transmogrifier"/>
+
+  <utility 
+    component=".posts.PostSection"
+    name="plonetheme.capoeiranantes.wppost" />
+
+  <transmogrifier:registerConfig
+    name="wp2plone-posts"
+    title="Create document from Wordpress posts"
+    description="The CSV has been created by export the table with phpmyadmin"
+    configuration="posts.cfg"
+    />
+
+  <genericsetup:upgradeStep
+      source="0"
+      destination="1"
+      title="Migrate posts from wordpress to plone"
+      description=""
+      profile="plonetheme.capoeiranantes:default"
+      handler=".posts.import_posts"
+      />
+</configure>
