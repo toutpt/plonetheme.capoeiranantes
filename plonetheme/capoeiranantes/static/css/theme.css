@@ -1605,6 +1605,9 @@
 #portal-globalnav {
   clear: none;
 }
+.template-folder_full_view #portlets-below #socialtools {
+  display: none;
+}
 /* ============================= */
 /* ! Layout for tablet version   */
 /* ============================= */
