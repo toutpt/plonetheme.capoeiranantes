@@ -1,0 +1,35 @@
+/*twitter's bootstrap v 2.0.2*/
+@import "variables";
+@import "mixins";
+@import "layouts.less";
+@import "grid.less";
+@import "responsive.less";
+
+/* ============================== */
+/* ! Default Layout   */
+/* ============================== */
+
+
+#portal-globalnav {
+    clear:none;
+}
+
+
+
+/* ============================= */
+/* ! Layout for tablet version   */
+/* ============================= */
+
+
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+  /* make some content disappear*/
+  #portal-globalnav-wrapper,
+  #socialtools{
+    display: none;
+  }
+}
