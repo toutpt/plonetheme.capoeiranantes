@@ -3,11 +3,44 @@ Introduction
 
 The for Plone for the website capoeira-nantes.fr
 
-Colors
-======
+TODO
+====
 
-greens:
+Charte graphique
+----------------
 
-#DAECE2
-#369F63
-#5EB581
+Header:
+
+- logo -> 230px (span3)
+- baseline: Cours de capoeira à Nantes
+- bannière: 3 blocs (horaire/lieu[texte], inscription[texte], événements [list 3])
+- globalnav: ajouter les icones
+
+Footer:
+
+- liens à la pnr + lien vers le site du japon
+- page de mentions légales
+
+JS:
+
+- changer le libellé 'Contenu corrélés' en 'Photos de l'événement' dans la rubrique
+agenda.
+
+Page d'accueil
+--------------
+
+Carousel (actu)
+Appel à rubrique:
+
+- Chansons
+- Mouvements
+- Grades
+
+Tableau de bords
+----------------
+
+ajouter un bloc pour la créa de contenu:
+
+* Ajouter actualité
+* Ajouter événement
+* Ajouter album photos
