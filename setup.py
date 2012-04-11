@@ -29,6 +29,7 @@ setup(name='plonetheme.capoeiranantes',
       install_requires=[
           'setuptools',
           'plone.app.theming',
+          'plone.app.themingplugins',
           # -*- Extra requirements: -*-
           'Products.Collage',
           'Products.PloneFormGen',
