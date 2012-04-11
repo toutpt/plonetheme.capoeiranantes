@@ -1,7 +1,7 @@
 Introduction
 ============
 
-The for Plone for the website capoeira-nantes.fr
+Theme for new website http://capoeira-nantes.fr
 
 TODO
 ====
