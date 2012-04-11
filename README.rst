@@ -11,8 +11,6 @@ Charte graphique
 
 Header:
 
-- logo -> 230px (span3)
-- baseline: Cours de capoeira à Nantes
 - bannière: 3 blocs (horaire/lieu[texte], inscription[texte], événements [list 3])
 - globalnav: ajouter les icones
 

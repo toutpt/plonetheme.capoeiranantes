@@ -20,7 +20,7 @@
 <!-- HEADER -->
     <append css:content="#portal-logo" css:theme="#portal-logo-wrapper"/>
     <append css:content="#headline-wrapper" css:theme="#headline-wrapper"/>
-    <append css:content="#portal-personaltools-wrapper" css:theme="#tools"/>
+    <append css:content="#portal-personaltools-wrapper" css:theme="#portal-searchbox-wrapper"/>
     <append css:content='#portal-searchbox' css:theme='#portal-searchbox-wrapper' />
     <append css:content="#portal-globalnav" css:theme="#portal-globalnav-wrapper"/>
 

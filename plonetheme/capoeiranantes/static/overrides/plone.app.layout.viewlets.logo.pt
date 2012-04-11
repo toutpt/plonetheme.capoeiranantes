@@ -6,4 +6,4 @@
                    title view/navigation_root_title"
    i18n:domain="plone"
    i18n:attributes="title">
-    <img alt="logo" tal:attributes="src string:${view/site_url}/++theme++plonetheme.capoeiranantes/images/logo-jogo-diferente-2012.jpg" /></a>
+    <img alt="logo" width="230" tal:attributes="src string:${view/site_url}/++theme++plonetheme.capoeiranantes/images/logo-jogo-diferente-2012.jpg" /></a>
