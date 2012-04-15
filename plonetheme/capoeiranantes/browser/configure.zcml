@@ -25,6 +25,13 @@
       layer=".interfaces.IThemeSpecific"
       permission="zope2.View"
       />
+  <browser:viewlet
+      name="plonetheme.capoeiranantes.headerban"
+      manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+      class=".ban.HeaderBanViewlet"
+      layer=".interfaces.IThemeSpecific"
+      permission="zope2.View"
+      />
   <!-- EXAMPLE:
   <browser:page
       name="myview"

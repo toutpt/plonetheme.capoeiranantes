@@ -13,15 +13,16 @@
     <drop css:theme=".drop"/>
 
 <!--  RESOURCES -->
-    <replace content='/html/head' theme='/html/head' />
+    <replace content="/html/head" theme="/html/head" />
     <merge attributes="class" css:content="body" css:theme="body" />
     <copy attributes="id dir" css:content="body" css:theme="body" />
 
 <!-- HEADER -->
     <append css:content="#portal-logo" css:theme="#portal-logo-wrapper"/>
-    <append css:content="#headline-wrapper" css:theme="#headline-wrapper"/>
+    <append css:content-children="#headline-wrapper" css:theme="#headline-wrapper"/>
     <append css:content="#portal-personaltools-wrapper" css:theme="#portal-searchbox-wrapper"/>
-    <append css:content='#portal-searchbox' css:theme='#portal-searchbox-wrapper' />
+    <append css:content="#portal-searchbox" css:theme="#portal-searchbox-wrapper" />
+    <append css:content="#header-ban" css:theme="#header-ban-wrapper" />
     <append css:content="#portal-globalnav" css:theme="#portal-globalnav-wrapper"/>
 
 <!-- CONTENT -->

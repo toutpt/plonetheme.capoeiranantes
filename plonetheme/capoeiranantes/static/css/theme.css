@@ -1611,6 +1611,21 @@
 .template-folder_full_view #portlets-below #socialtools {
   display: none;
 }
+#header-ban {
+  border: 1px solid black;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+#header-ban .span3 {
+  margin-right: -1px;
+}
+#header-ban-wrapper li {
+  display: block;
+}
 /* ============================= */
 /* ! Layout for tablet version   */
 /* ============================= */
@@ -1620,7 +1635,10 @@
 @media handheld, only screen and (max-width: 767px) {
   /* make some content disappear*/
   #portal-globalnav-wrapper,
-  #socialtools {
+  #socialtools,
+  #header-ban-wrapper,
+  #portal-personaltools-wrapper,
+  #headline-wrapper {
     display: none;
   }
 }
