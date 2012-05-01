@@ -7,10 +7,14 @@
 			TEXTE 2
 		</div>
 		<div class="span3">
+			<p>Prochains &eacute;v&eacute;nements
+			</p>
 			<ul>
 				<li tal:repeat="item view/events">
-					<a tal:attributes="href item/url; title item/title; class item/state" tal:content="item/title">
-						item</a>
+					<a tal:attributes="href item/url; title item/title; class item/state"
+						tal:content="item/title">
+						item
+					</a>
 				</li>
 			</ul>
 		</div>
