@@ -11,8 +11,8 @@ Charte graphique
 
 Header:
 
-- bannière: 3 blocs (horaire/lieu[texte], inscription[texte], événements [list 3])
-- globalnav: ajouter les icones
+- IN PROGRESS: bannière: 3 blocs (horaire/lieu[texte], inscription[texte], événements [list 3])
+- DONE: globalnav: ajouter les icones
 
 Footer:
 
