@@ -34,8 +34,8 @@ Appel à rubrique:
 - Mouvements
 - Grades
 
-Tableau de bords
-----------------
+DONE - Tableau de bords
+-----------------------
 
 ajouter un bloc pour la créa de contenu:
 
