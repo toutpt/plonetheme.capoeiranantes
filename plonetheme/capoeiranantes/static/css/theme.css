@@ -1682,6 +1682,12 @@
 .portletStaticText img {
   max-width: 100%;
 }
+#portal-footer-wrapper .span12 {
+  padding: 1em 0;
+}
+#portal-footer-wrapper .span12 #portal-footer-links li {
+  display: block;
+}
 /*****************
  0 -> 480
  *****************/

@@ -1,26 +1,26 @@
-<div class="container_12" id="portal-footer-links">
- <div class="grid_3" id="links-one" class="footer-links">
+<div class="row" id="portal-footer-links">
+ <div class="span3 footer-links" id="links-one">
   <ul>
     <tal:actions repeat="action python:context.portal_actions.listFilteredActionsFor(context)['footer-one']">
      <li><a tal:attributes="href action/url; title action/title;" tal:content="action/title">action title</a></li>
    </tal:actions>
   </ul>
  </div>
- <div class="grid_3" id="links-one" class="footer-links">
+ <div class="span3 footer-links" id="links-one">
   <ul>
     <tal:actions repeat="action python:context.portal_actions.listFilteredActionsFor(context)['footer-two']">
      <li><a tal:attributes="href action/url; title action/title;" tal:content="action/title">action title</a></li>
    </tal:actions>
   </ul>
  </div>
- <div class="grid_3" id="links-one" class="footer-links">
+ <div class="span3 footer-links" id="links-one">
   <ul>
     <tal:actions repeat="action python:context.portal_actions.listFilteredActionsFor(context)['footer-three']">
      <li><a tal:attributes="href action/url; title action/title;" tal:content="action/title">action title</a></li>
    </tal:actions>
   </ul>
  </div>
- <div class="grid_3" id="links-one" class="footer-links">
+ <div class="span3 footer-links" id="links-one">
   <ul>
     <tal:actions repeat="action python:context.portal_actions.listFilteredActionsFor(context)['footer-four']">
      <li><a tal:attributes="href action/url; title action/title;" tal:content="action/title">action title</a></li>
