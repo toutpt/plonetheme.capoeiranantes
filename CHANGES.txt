@@ -6,3 +6,4 @@ Changelog
 
 - Add homepage with flexslider
 - Add setup for Album with quickupload portlets and homepage view
+- Add test-responsive view.

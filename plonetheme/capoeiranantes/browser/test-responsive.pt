@@ -1,0 +1,34 @@
+<html>
+ <head>
+  <title>Test resposive webdesign</title>
+ </head>
+ <body>
+ <style>
+ .testblock{float:left; margin-right:20px;}
+ </style>
+ <div class="testblock">
+  <h2>240 x 320 (mobile)</h2>
+  <iframe width="240" height="320" tal:attributes="src string:${context/absolute_url}"></iframe>
+ </div>
+ <div class="testblock">
+  <h2>320 x 480 (mobile)</h2>
+  <iframe width="320" height="480" tal:attributes="src string:${context/absolute_url}"></iframe>
+ </div>
+ <div class="testblock">
+  <h2>480 x 640 (small tablet)</h2>
+  <iframe width="480" height="640" tal:attributes="src string:${context/absolute_url}"></iframe>
+ </div>
+ <div class="testblock">
+  <h2>768 x 1024 (tablet portrait)</h2>
+  <iframe width="768" height="1024" tal:attributes="src string:${context/absolute_url}"></iframe>
+ </div>
+ <div class="testblock">
+  <h2>1024 x 768 (tablet landscape)</h2>
+  <iframe width="1024" height="768" tal:attributes="src string:${context/absolute_url}"></iframe>
+ </div>
+ <div class="testblock">
+  <h2>1200 x 800 (desktop)</h2>
+  <iframe width="1200" height="800" tal:attributes="src string:${context/absolute_url}"></iframe>
+ </div>
+ </body>
+</html>

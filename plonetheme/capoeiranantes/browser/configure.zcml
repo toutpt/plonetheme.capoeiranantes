@@ -43,5 +43,11 @@
       layer=".interfaces.IThemeSpecific"
       permission="zope2.View"
       />
-
+  <browser:page 
+      for="*"
+      name="test-responsive"
+      template="test-responsive.pt"
+      layer=".interfaces.IThemeSpecific"
+      permission="zope2.View"
+  />
 </configure>

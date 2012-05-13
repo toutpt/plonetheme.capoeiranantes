@@ -15,9 +15,11 @@
 
 #portal-globalnav {
     clear:none;
-    a{
+    li a{
         padding-left: 48px!important;
-    }
+        min-width: 5em;
+        width: 5em;
+}
     #portaltab-cours-de-capoeira a{
         background: 3px -3px url('../images/icons.png') no-repeat;
     }
@@ -48,14 +50,36 @@
 #header-ban{
   border: 1px solid black;
   .border-radius(5px);
+  font-size: 80%;
 }
+.header-ban-title{font-weight: bold;}
 #header-ban .span3{
   margin-right: -1px;
 }
 #header-ban-wrapper li{
     display: block;
 }
-
+#content .flexslider{
+    ul{
+      list-style-type: none;
+    }
+    .caption-title{
+      font-size: 26px;
+      font-weight: bold;
+    }
+    .caption-link a{
+      color: White!important;
+      font-weight: bold;
+    }
+    .flex-caption{
+      width: 60%;
+      left: auto;
+      right: 0;
+    }
+}
+.portletStaticText img{
+    max-width: 100%;
+}
 /*****************
  0 -> 480
  *****************/
@@ -68,6 +92,9 @@
   #footer li{
     font-size: 15px;
     padding-top:5px;
+  }
+  #portal-logo img{
+    max-width: 100%;
   }
 }
 /*****************
@@ -97,8 +124,16 @@
 @media (max-width: 980px) {
   #globalnav-wrapper,
   #portal-personaltools,
+  #header-ban-wrapper,
   #edit-bar{
     display:none;
+  }
+  #content .flexslider .flex-caption{
+      width: 100%;
+      .caption-title,
+      .caption-description{
+        display:none
+      }
   }
 }
 
