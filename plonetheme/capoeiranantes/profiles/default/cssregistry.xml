@@ -2,10 +2,11 @@
 <object name="portal_css">
 
  <stylesheet
-    id="++theme++plonetheme.capoeiranantes/css/grid.css"
-    expression="request/HTTP_X_THEME_ENABLED | nothing"/>
- <stylesheet
     id="++theme++plonetheme.capoeiranantes/css/theme.css"
+    expression="request/HTTP_X_THEME_ENABLED | nothing"/>
+
+ <stylesheet
+    id="++theme++plonetheme.capoeiranantes/css/flexslider.css"
     expression="request/HTTP_X_THEME_ENABLED | nothing"/>
 
 </object>

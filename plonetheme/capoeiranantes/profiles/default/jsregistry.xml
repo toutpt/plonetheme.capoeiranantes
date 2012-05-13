@@ -2,9 +2,9 @@
 <object name="portal_javascripts">
 
  <javascript
-    id="++theme++plonetheme.capoeiranantes/js/theme.js"/>
+    id="++theme++plonetheme.capoeiranantes/js/jquery.flexslider.js"/>
 
  <javascript
-    id="++theme++plonetheme.capoeiranantes/js/modernizr.js"/>
+    id="++theme++plonetheme.capoeiranantes/js/theme.js"/>
 
 </object>

@@ -32,15 +32,16 @@
       layer=".interfaces.IThemeSpecific"
       permission="zope2.View"
       />
-  <!-- EXAMPLE:
+
   <browser:page
-      name="myview"
+      for="*"
+      name="homepage"
       menu="plone_displayviews"
-      title="Galleria"
-      class=".myfile.MyView"
+      title="Home Page"
+      class=".homepage.HomePageView"
+      template="homepage.pt"
       layer=".interfaces.IThemeSpecific"
       permission="zope2.View"
       />
-  -->
 
 </configure>

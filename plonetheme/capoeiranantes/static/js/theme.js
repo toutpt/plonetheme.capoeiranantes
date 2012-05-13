@@ -13,5 +13,10 @@ function equalHeight(group) {
 }
 function initializeplonethemecapoeiranantes(){
     updateSearchBox();
+    $('.flexslider').flexslider({
+    	directionNav: false,
+    	controlNav: false,
+    	keyboardNav: false
+    });
 }
 jQuery(initializeplonethemecapoeiranantes);

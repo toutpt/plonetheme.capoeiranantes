@@ -27,8 +27,8 @@ agenda.
 Page d'accueil
 --------------
 
-Carousel (actu)
-Appel à rubrique:
+DONE: Carousel (actu)
+DONE (portlets): Appel à rubrique:
 
 - Chansons
 - Mouvements

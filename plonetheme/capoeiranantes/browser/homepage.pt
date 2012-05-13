@@ -1,0 +1,27 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+      lang="en"
+      metal:use-macro="here/main_template/macros/master"
+      i18n:domain="plone">
+
+<body>
+
+<metal:content-core fill-slot="content-core">
+
+<div class="carousel" id="portal-carousel">
+ <div class="flexslider">
+ <ul class="slides">
+    <li tal:repeat="item view/items">
+     <img alt="photo" tal:attributes="src item/imgurl"/>
+     <div class="flex-caption">
+       <p class="caption-title" tal:content="item/title">Title</p>
+       <p class="caption-description" tal:content="item/description">Description</p>
+       <p class="caption-link"><a tal:attributes="href item/url">En savoir plus</a></p>
+     </div>
+    </li>
+  </ul>
+ </div>
+</div>
+</metal:content-core>
+
+</body>
+</html>
