@@ -4,5 +4,5 @@ Changelog
 1.0dev (unreleased)
 -------------------
 
-- Initial release
 - Add homepage with flexslider
+- Add setup for Album with quickupload portlets and homepage view

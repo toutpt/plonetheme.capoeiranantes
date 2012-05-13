@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<portlets
+    xmlns:i18n="http://xml.zope.org/namespaces/i18n"
+    i18n:domain="plone">
+
+    <assignment
+        manager="plone.rightcolumn"
+        category="content_type"
+        key="Album"
+        type="collective.quickupload.QuickUploadPortlet"
+        name="quickupload">
+            <property name="header">upload</property>
+            <property name="upload_portal_type">Image</property>
+            <property name="upload_media_type">image</property>
+    </assignment>
+
+</portlets>
