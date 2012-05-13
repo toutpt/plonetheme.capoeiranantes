@@ -1605,6 +1605,13 @@
 #portal-logo {
   margin: 0;
 }
+#portal-logo img {
+  max-width: 100%;
+}
+#headline {
+  font-size: 30px;
+  font-weight: bold;
+}
 #portal-globalnav {
   clear: none;
 }
@@ -1680,16 +1687,17 @@
  *****************/
 @media (max-width: 480px) {
   /* make some content disappear*/
-  #socialtools {
+  #socialtools,
+  #portal-breadcrumbs,
+  #content div.documentByLine,
+  .managePortletsLink,
+  #portal-globalnav {
     display: none;
   }
   /*zoom some font sizes*/
   #footer li {
     font-size: 15px;
     padding-top: 5px;
-  }
-  #portal-logo img {
-    max-width: 100%;
   }
 }
 /*****************
@@ -1706,7 +1714,6 @@
 @media (max-width: 768px) {
   #portal-logo {
     display: block;
-    float: left;
   }
   #portal-logo img {
     display: block;
@@ -1756,5 +1763,8 @@
  1200 -> ++
  *****************/
 @media (min-width: 1200px) {
-  
+  #portal-globalnav li a {
+    min-width: 8em;
+    width: auto;
+  }
 }
