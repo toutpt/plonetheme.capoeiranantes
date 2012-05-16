@@ -1663,8 +1663,12 @@
 #header-ban-wrapper li {
   display: block;
 }
-#content .flexslider ul {
+#content .flexslider ul.slides {
   list-style-type: none;
+  margin-left: 0;
+}
+#content .flexslider ul.slides > li > img {
+  width: 100%;
 }
 #content .flexslider .caption-title {
   font-size: 26px;
@@ -1737,7 +1741,7 @@
     display: none;
   }
   #content .flexslider .flex-caption {
-    width: 100%;
+    width: 96%;
   }
   #content .flexslider .flex-caption .caption-title,
   #content .flexslider .flex-caption .caption-description {

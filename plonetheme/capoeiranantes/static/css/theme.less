@@ -66,8 +66,12 @@
     display: block;
 }
 #content .flexslider{
-    ul{
+    ul.slides{
       list-style-type: none;
+      margin-left: 0;
+      > li > img{
+        width: 100%;
+      }
     }
     .caption-title{
       font-size: 26px;
@@ -81,6 +85,7 @@
       width: 60%;
       left: auto;
       right: 0;
+      
     }
 }
 .portletStaticText img{
@@ -141,7 +146,7 @@
     display:none;
   }
   #content .flexslider .flex-caption{
-      width: 100%;
+      width: 96%;
       .caption-title,
       .caption-description{
         display:none
