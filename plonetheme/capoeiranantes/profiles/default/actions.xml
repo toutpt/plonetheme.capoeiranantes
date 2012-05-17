@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<object name="portal_actions" meta_type="Plone Actions Tool"
+   xmlns:i18n="http://xml.zope.org/namespaces/i18n">
+ <object name="capoeiraadmin" meta_type="CMF Action Category">
+  <property name="title"></property>
+  <object name="addevent" meta_type="CMF Action" i18n:domain="plonetheme.capoeiranantes">
+   <property name="title" i18n:translate="">Add event</property>
+   <property name="description" i18n:translate=""></property>
+   <property name="url_expr">string:${globals_view/navigationRootUrl}/evenements/2012/createObject?type_name=Event</property>
+   <property name="icon_expr"></property>
+   <property
+      name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+  <object name="addnews" meta_type="CMF Action" i18n:domain="plonetheme.capoeiranantes">
+   <property name="title" i18n:translate="">Add news</property>
+   <property name="description" i18n:translate=""></property>
+   <property name="url_expr">string:${globals_view/navigationRootUrl}/actualites/2012/createObject?type_name=News%20Item</property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+  <object name="addphotosalbum" meta_type="CMF Action" i18n:domain="plonetheme.capoeiranantes">
+   <property name="title" i18n:translate="">Add gallery</property>
+   <property name="description" i18n:translate=""></property>
+   <property
+      name="url_expr">string:${globals_view/navigationRootUrl}/albums-photos/2012/createObject?type_name=Folder</property>
+   <property
+      name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions">
+    <element value="View"/>
+   </property>
+   <property name="visible">True</property>
+  </object>
+ </object>
+</object>
