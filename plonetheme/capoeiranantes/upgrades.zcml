@@ -1,0 +1,14 @@
+<configure
+  xmlns="http://namespaces.zope.org/zope"
+  xmlns:gs="http://namespaces.zope.org/genericsetup"
+  i18n_domain="plonetheme.capoeiranantes">
+
+  <gs:upgradeStep
+    title="Apply default profile"
+    description=""
+    source="*"
+    destination="1001"
+    handler=".upgrades.common"
+    profile="plonetheme.capoeiranantes:default"/>
+
+</configure>

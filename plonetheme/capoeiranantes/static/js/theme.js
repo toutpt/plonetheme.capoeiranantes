@@ -18,5 +18,6 @@ function initializeplonethemecapoeiranantes(){
     	controlNav: false,
     	keyboardNav: false
     });
+    $('.container').fitVids();
 }
 jQuery(initializeplonethemecapoeiranantes);

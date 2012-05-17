@@ -7,4 +7,7 @@
  <javascript
     id="++theme++plonetheme.capoeiranantes/js/theme.js"/>
 
+ <!-- unactivate masonry, we just want to be able to add portlets -->
+ <javascript id="jquery-masonry.js" enabled="False"/>
+
 </object>
