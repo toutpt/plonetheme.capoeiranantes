@@ -32,5 +32,7 @@ function initializeplonethemecapoeiranantes(){
 			$(value).addClass(cssclass);
 		}
 	})
+	$('#myDiv1>p')
+	$('.template-folder_full_view .addthis_toolbox:last').detach().prependTo('#content-core');
 }
 jQuery(initializeplonethemecapoeiranantes);

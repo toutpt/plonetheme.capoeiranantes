@@ -49,7 +49,7 @@ DONE (portlets): Appel à rubrique:
 Page cours
 ----------
 
-- ajouter des couleurs en fonction cours enfants / adultes
+- DONE ajouter des couleurs en fonction cours enfants / adultes
 
 Page actualités
 ---------------
