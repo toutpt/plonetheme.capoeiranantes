@@ -17,7 +17,7 @@ Header:
 Footer:
 
 - liens à la pnr + lien vers le site du japon
-- page de mentions légales
+- DONE: page de mentions légales
 
 JS:
 

@@ -19,5 +19,18 @@ function initializeplonethemecapoeiranantes(){
     	keyboardNav: false
     });
     $('.container').fitVids();
+    $('.section-cours-de-capoeira #content-core table td').each(function(index, value){
+		var category = $(value).text().toLowerCase();
+		var cssclass = null;
+		if (category.match("^"+"adulte")=="adulte"){
+			cssclass = "adulte";
+		}
+		if (category.match("^"+"enfant")=="enfant"){
+			cssclass = "enfant";
+		}
+		if (cssclass != null){
+			$(value).addClass(cssclass);
+		}
+	})
 }
 jQuery(initializeplonethemecapoeiranantes);
