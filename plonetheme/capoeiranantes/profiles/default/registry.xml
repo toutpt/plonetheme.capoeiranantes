@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<registry>
+ <records interface="plone.app.discussion.interfaces.IDiscussionSettings">
+  <value key="globally_enabled">True</value>
+  <value key="anonymous_comments">True</value>
+  <value key="moderation_enabled">False</value>
+  <value key="text_transform">text/x-web-markdown</value>
+  <value key="captcha">recaptcha</value>
+  <value key="show_commenter_image">False</value>
+  <value key="moderator_notification_enabled">True</value>
+  <value key="moderator_email">capoeiraventura@yahoo.fr</value>
+ </records>
+ <records interface="plone.formwidget.recaptcha.interfaces.IReCaptchaSettings">
+   <!--  because the addon doesn't support multi keys (attached to URL
+     I will set this up in the controlpanel 
+   <value key="public_key">6LfWy9ESAAAAAIaF2q17KeVqsQ7x_Mtnakqy5oX-</value> -->
+
+    <!-- Uses when communicating between our server and google server.
+     Must be kept secret
+   <value key="private_key"></value>-->
+ </records>
+</registry>

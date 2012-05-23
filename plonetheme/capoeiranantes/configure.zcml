@@ -8,6 +8,9 @@
     i18n_domain="plonetheme.capoeiranantes">
 
   <five:registerPackage package="." initialize=".initialize" />
+  
+  <include package="plone.formwidget.recaptcha" />
+  <include package="plone.app.discussion.browser" file="captcha.zcml"/>
 
   <include package=".browser" />
   <include file="upgrades.zcml" />

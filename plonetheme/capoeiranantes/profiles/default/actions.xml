@@ -40,4 +40,175 @@
    <property name="visible">True</property>
   </object>
  </object>
+ <object name="footer-one" meta_type="CMF Action Category">
+  <property name="title"></property>
+  <object name="youtube" meta_type="CMF Action"
+     i18n:domain="plonetheme.capoeiranantes">
+   <property name="title" i18n:translate="">capoeira nantes youtube</property>
+   <property name="description" i18n:translate=""></property>
+   <property
+      name="url_expr">string:http://www.youtube.com/user/formadoAventura</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions"/>
+   <property name="visible">True</property>
+  </object>
+  <object name="googleplus" meta_type="CMF Action">
+   <property name="title">capoeira nantes google+</property>
+   <property name="description"></property>
+   <property
+      name="url_expr">string:https://plus.google.com/100781620542283139706/posts</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions"/>
+   <property name="visible">False</property>
+  </object>
+  <object name="twitter" meta_type="CMF Action">
+   <property name="title">capoeira nantes twitter</property>
+   <property name="description"></property>
+   <property
+      name="url_expr">string:http://twitter.com/CapoeirAventura</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions"/>
+   <property name="visible">False</property>
+  </object>
+  <object name="facebook" meta_type="CMF Action">
+   <property name="title">capoeira nantes facebook</property>
+   <property name="description"></property>
+   <property
+      name="url_expr">string:http://www.facebook.com/capoeira.nantes</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions"/>
+   <property name="visible">True</property>
+  </object>
+ </object>
+ <object name="footer-two" meta_type="CMF Action Category">
+  <property name="title"></property>
+  <object name="quebragereba" meta_type="CMF Action">
+   <property name="title">Musique et chants</property>
+   <property name="description">quebragereba.com</property>
+   <property name="url_expr">string:http://www.quebragereba.com/</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions"/>
+   <property name="visible">True</property>
+  </object>
+  <object name="association-quilombocapoeira" meta_type="CMF Action">
+   <property name="title">Origem Negra Asso Quilombo</property>
+   <property name="description">association Quilombo</property>
+   <property
+      name="url_expr">string:http://www.association-quilombocapoeira.fr/</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions"/>
+   <property name="visible">True</property>
+  </object>
+  <object name="capoeira-tarbes" meta_type="CMF Action">
+   <property name="title">Origem Negra Tarbes</property>
+   <property name="description">Capoeira de Tarbes</property>
+   <property name="url_expr">string:http://www.capoeira-tarbes.fr/</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions"/>
+   <property name="visible">True</property>
+  </object>
+  <object name="tribulation-martiales" meta_type="CMF Action"
+     i18n:domain="plonetheme.capoeiranantes">
+   <property name="title" i18n:translate="">Tribulations Martiales</property>
+   <property name="description" i18n:translate="">Xavier</property>
+   <property
+      name="url_expr">string:http://tribulations-martiales.blogspot.com/</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions"/>
+   <property name="visible">True</property>
+  </object>
+  <!-- cleanup old actions -->
+  <object name="allemange" remove="true"/>
+  <object name="brazil" remove="true"/>
+  <object name="croatie" remove="true"/>
+  <object name="grece" remove="true"/>
+ </object>
+ <object name="footer-three" meta_type="CMF Action Category">
+  <property name="title"></property>
+  <object name="fougette" meta_type="CMF Action">
+   <property name="title">Contra Mestre Fougette</property>
+   <property name="description"></property>
+   <property name="url_expr">string:http://www.origemnegra.com/</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions"/>
+   <property name="visible">True</property>
+  </object>
+  <object name="parafuso" meta_type="CMF Action"
+     i18n:domain="plonetheme.capoeiranantes">
+   <property name="title" i18n:translate="">Contra Mestre Parafuso</property>
+   <property name="description" i18n:translate=""></property>
+   <property
+      name="url_expr">string:http://www.capoeirajacobina-arte.com/</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions"/>
+   <property name="visible">True</property>
+  </object>
+  <object name="branco" meta_type="CMF Action">
+   <property name="title">Professor Branco</property>
+   <property name="description"></property>
+   <property
+      name="url_expr">string:http://www.jacobinaartesables.com/</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions"/>
+   <property name="visible">True</property>
+  </object>
+  <object name="montanha" meta_type="CMF Action">
+   <property name="title">Professor Montanha</property>
+   <property name="description"></property>
+   <property
+      name="url_expr">string:http://jacobina-artekomontini.webs.com/</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions"/>
+   <property name="visible">True</property>
+  </object>
+ </object>
+ <object name="footer-four" meta_type="CMF Action Category">
+  <property name="title"></property>
+  <object name="musique" meta_type="CMF Action">
+   <property name="title">Musique et chants</property>
+   <property name="description"></property>
+   <property
+      name="url_expr">string:http://quebragereba.blogspot.com/</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions"/>
+   <property name="visible">True</property>
+  </object>
+  <object name="martiale" meta_type="CMF Action">
+   <property name="title">Tribulation Martiale</property>
+   <property name="description"></property>
+   <property
+      name="url_expr">string:http://tribulations-martiales.blogspot.com/</property>
+   <property name="link_target"></property>
+   <property name="icon_expr"></property>
+   <property name="available_expr"></property>
+   <property name="permissions"/>
+   <property name="visible">True</property>
+  </object>
+ </object>
 </object>

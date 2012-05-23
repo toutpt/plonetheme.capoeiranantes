@@ -50,4 +50,11 @@
       layer=".interfaces.IThemeSpecific"
       permission="zope2.View"
   />
+  <browser:page
+        name="conversation_view"
+        for="Products.CMFCore.interfaces.IContentish"
+        class=".conversation.ConversationView"
+        permission="zope2.View"
+        layer=".interfaces.IThemeSpecific"
+        />
 </configure>

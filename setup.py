@@ -1,5 +1,4 @@
 from setuptools import setup, find_packages
-import os
 
 version = '1.0'
 
@@ -48,6 +47,7 @@ setup(name='plonetheme.capoeiranantes',
           'collective.seo',
           'webcouturier.dropdownmenu',
           'plone.app.transmogrifier',
+          'plone.formwidget.recaptcha',
           'iw.rejectanonymous',
       ],
       entry_points="""
