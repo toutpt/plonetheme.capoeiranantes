@@ -54,7 +54,7 @@ Page cours
 Page actualités
 ---------------
 
-mettre addthis en haut pour la page, décalé à droite.
+DONE: mettre addthis en haut pour la page, décalé à droite.
 
 
 DONE - Tableau de bords
