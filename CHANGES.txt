@@ -4,6 +4,7 @@ Changelog
 1.0dev (unreleased)
 -------------------
 
+- Add vignette on newsitem and event
 - Add homepage with flexslider
 - Add setup for Album with quickupload portlets and homepage view
 - Add test-responsive view.

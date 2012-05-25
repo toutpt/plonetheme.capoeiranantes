@@ -11,6 +11,7 @@
   
   <include package="plone.formwidget.recaptcha" />
   <include package="plone.app.discussion.browser" file="captcha.zcml"/>
+  <include package="archetypes.schemaextender" />
 
   <include package=".browser" />
   <include file="upgrades.zcml" />
@@ -26,7 +27,15 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
-
   <plone:static directory="static" type="theme" />
+
+  <adapter
+    factory=".vignette.VignetteExtender"
+    provides="archetypes.schemaextender.interfaces.ISchemaExtender"
+    for="Products.ATContentTypes.interfaces.IATEvent"/>
+  <adapter
+    factory=".vignette.VignetteExtender"
+    provides="archetypes.schemaextender.interfaces.ISchemaExtender"
+    for="Products.ATContentTypes.interfaces.IATNewsItem"/>
 
 </configure>
