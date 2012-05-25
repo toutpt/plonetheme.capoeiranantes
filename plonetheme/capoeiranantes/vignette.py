@@ -1,8 +1,6 @@
-from zope.component import adapts
 from zope.interface import implements
 
 from Products.Archetypes import public as atapi
-from Products.ATContentTypes.interfaces import IATEvent, IATNewsItem
 
 from archetypes.schemaextender.field import ExtensionField
 from archetypes.schemaextender.interfaces import IOrderableSchemaExtender, \
@@ -36,6 +34,8 @@ class VignetteExtender(object):
 
     fields = [
         ExtensionImageField("image",
+        storage=atapi.AnnotationStorage(migrate=True),
+        languageIndependent=True,
             schemata="default",
             required=True,
             widget=atapi.ImageWidget(
