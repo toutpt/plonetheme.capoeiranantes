@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<object>
+ <layout>
+  <styles purge="False">
+   <element value="Chant|p|chant"/>
+   <element value="Chant-Coro|p|chant-coro"/>
+  </styles>
+</object>
