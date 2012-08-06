@@ -6,26 +6,22 @@
    </tal:actions>
   </ul>
  </div>
- <div class="span3 footer-links" id="links-one">
+ <div class="span3 footer-links" id="links-two">
   <ul>
     <tal:actions repeat="action python:context.portal_actions.listFilteredActionsFor(context)['footer-two']">
      <li><a tal:attributes="href action/url; title action/title;" tal:content="action/title">action title</a></li>
    </tal:actions>
   </ul>
  </div>
- <div class="span3 footer-links" id="links-one">
+ <div class="span3 footer-links" id="links-three">
   <ul>
     <tal:actions repeat="action python:context.portal_actions.listFilteredActionsFor(context)['footer-three']">
      <li><a tal:attributes="href action/url; title action/title;" tal:content="action/title">action title</a></li>
    </tal:actions>
   </ul>
  </div>
- <div class="span3 footer-links" id="links-one">
-  <ul>
-    <tal:actions repeat="action python:context.portal_actions.listFilteredActionsFor(context)['footer-four']">
-     <li><a tal:attributes="href action/url; title action/title;" tal:content="action/title">action title</a></li>
-   </tal:actions>
-  </ul>
+ <div class="span3" id="origemnegra">
+   <a href="http://www.origemnegra.com" title="origiem negra"><img alt="logo origimnegra" tal:attributes="src string:${view/site_url}/++theme++plonetheme.capoeiranantes/images/logo-origemnegra.png"/></a>
  </div>
  <div class="clear"></div>
 </div>
