@@ -1691,7 +1691,12 @@
   max-width: 100%;
 }
 #portal-footer-wrapper {
-  background-color: #2A1A0B;
+  background-image: linear-gradient(bottom, #666666 28%, #bdbdbd 64%);
+  background-image: -o-linear-gradient(bottom, #666666 28%, #bdbdbd 64%);
+  background-image: -moz-linear-gradient(bottom, #666666 28%, #bdbdbd 64%);
+  background-image: -webkit-linear-gradient(bottom, #666666 28%, #bdbdbd 64%);
+  background-image: -ms-linear-gradient(bottom, #666666 28%, #bdbdbd 64%);
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.28, #666666), color-stop(0.64, #bdbdbd));
 }
 #portal-footer-wrapper .span12 {
   padding: 1em 0;

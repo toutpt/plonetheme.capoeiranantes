@@ -101,8 +101,20 @@
     max-width: 100%;
 }
 #portal-footer-wrapper{
-  background-color: #2A1A0B;
-  .span12{
+background-image: linear-gradient(bottom, rgb(102,102,102) 28%, rgb(189,189,189) 64%);
+background-image: -o-linear-gradient(bottom, rgb(102,102,102) 28%, rgb(189,189,189) 64%);
+background-image: -moz-linear-gradient(bottom, rgb(102,102,102) 28%, rgb(189,189,189) 64%);
+background-image: -webkit-linear-gradient(bottom, rgb(102,102,102) 28%, rgb(189,189,189) 64%);
+background-image: -ms-linear-gradient(bottom, rgb(102,102,102) 28%, rgb(189,189,189) 64%);
+
+background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.28, rgb(102,102,102)),
+    color-stop(0.64, rgb(189,189,189))
+);
+.span12{
     padding: 1em 0;
     #portal-footer-links li{
       display: block;
