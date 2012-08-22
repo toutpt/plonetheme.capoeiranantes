@@ -5,9 +5,7 @@
   xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   css:if-content="#visual-portal-wrapper">
 
-    <theme href="theme-three.html" css:if-content=".template-manage-portlets"/>
-    <theme href="theme-three.html" if="$have_both_portlets"/>
-    <theme href="theme-two-left.html" if="$have_left_portlets"/>
+    <theme href="theme-two-right.html" css:if-content=".template-manage-portlets"/>
     <theme href="theme-two-right.html" if="$have_right_portlets"/>
     <theme href="theme-one.html" />
     <drop css:theme=".drop"/>
@@ -33,5 +31,6 @@
 <!-- FOOTER -->
     <append css:content-children="#portal-colophon" css:theme="#portal-colophon" />
     <append css:content-children="#portal-siteactions" css:theme="#portal-siteactions" />
-    <prepend css:content="#portal-footer-links" css:theme="#portal-footer-wrapper .span12"/>
+    <append css:content="#portlets-footer" css:theme="#portal-footer"/>
+
 </rules>

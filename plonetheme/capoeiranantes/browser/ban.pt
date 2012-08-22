@@ -1,18 +1,18 @@
-<div id="header-ban" class="row">
+<div id="header-ban">
 	<div class="banner">
-		<div class="span3">
+		<div class="grid_3 alpha">
 			<p class="header-ban-title">Horaires / lieux</p>
 			<p>11 créneaux pour nos cours de capoeira</p>
 			<p>en centre-ville de Nantes et sur l'Île Beaulieu.</p>
 			<p><a href="#" tal:attributes="href string:${view/site_url}/cours-de-capoeira">En savoir plus >></a></p>
 		</div>
-		<div class="span3">
+		<div class="grid_3">
 		    <p class="header-ban-title">Inscription</p>
 		    <p>La capoeira est ouverte tou(te)s<br/>
 		       débutants et avancés, adultes et enfants, au trimestre ou à l'année.</p>
 		    <p><a href="#" tal:attributes="href string:${view/site_url}/cours-de-capoeira/inscriptions-et-tarifs">En savoir plus >></a></p>
 		</div>
-		<div class="span3">
+		<div class="grid3_omega">
 			<p class="header-ban-title">Prochains &eacute;v&eacute;nements
 			</p>
 			<ul>

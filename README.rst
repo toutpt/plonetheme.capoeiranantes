@@ -3,6 +3,39 @@ Introduction
 
 Theme for new website http://capoeira-nantes.fr
 
+LINKS FOR FOOTEr:
+   capoeira nantes youtube
+   http://www.youtube.com/user/formadoAventura
+   capoeira nantes google+
+   https://plus.google.com/100781620542283139706/posts
+   twitter
+   http://twitter.com/CapoeirAventura
+   facebook
+   http://www.facebook.com/capoeira.nantes
+   
+   Musique et chants
+   http://www.quebragereba.com/
+    Origem Negra Asso Quilombo
+    http://www.association-quilombocapoeira.fr/
+   Origem Negra Tarbes
+   http://www.capoeira-tarbes.fr/
+   Tribulations Martiales (xavier)
+   http://tribulations-martiales.blogspot.com/
+   
+   Contra Mestre Fougette
+   http://www.origemnegra.com/
+   
+   Contra Mestre Parafuso
+   http://www.capoeirajacobina-arte.com/
+   
+   Professor Branco
+   http://www.jacobinaartesables.com/
+   
+Professor Montanha
+http://jacobina-artekomontini.webs.com/
+
+
+
 TODO
 ====
 

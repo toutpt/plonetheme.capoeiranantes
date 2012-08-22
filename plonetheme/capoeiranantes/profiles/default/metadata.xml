@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <metadata>
-  <version>1002</version>
+  <version>1003</version>
   <dependencies>
     <dependency>profile-plone.formwidget.recaptcha:default</dependency>
     <dependency>profile-plone.app.theming:default</dependency>
@@ -8,6 +8,7 @@
     <dependency>profile-collective.addthis:default</dependency>
     <dependency>profile-collective.googleanalytics:default</dependency>
     <dependency>profile-collective.js.fitvids:default</dependency>
+    <dependency>profile-collective.js.nivoslider:default</dependency>
     <dependency>profile-collective.masonry:default</dependency>
     <dependency>profile-collective.oembed:default</dependency>
     <dependency>profile-collective.portlet.actions:default</dependency>
