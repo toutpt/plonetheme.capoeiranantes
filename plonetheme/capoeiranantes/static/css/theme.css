@@ -113,6 +113,9 @@ h1 {
 #portal-footer-wrapper #origemnegra img {
   width: 100%;
 }
+#portal-footer-wrapper #portal-siteactions a {
+  color: White!important;
+}
 #viewlet-below-content-body #portlets-below #portletsBelowContent .portletWrapper {
   width: 100%;
 }
