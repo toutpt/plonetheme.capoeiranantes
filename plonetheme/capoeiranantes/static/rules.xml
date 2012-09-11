@@ -29,7 +29,8 @@
 
 <!-- FOOTER -->
     <append css:content-children="#portal-colophon" css:theme="#portal-colophon" />
-    <append css:content-children="#portal-siteactions" css:theme="#portal-siteactions" />
+    <append css:content="#portal-siteactions" css:theme="#portal-siteactions-wrapper" />
+    <append css:content="#portal-personaltools" css:theme="#portal-siteactions-wrapper" />
     <append css:content="#portlets-footer" css:theme="#portal-footer"/>
 
 </rules>
