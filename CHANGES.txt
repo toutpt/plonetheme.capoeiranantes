@@ -1,6 +1,13 @@
 Changelog
 =========
 
+Ajouter ssf4 sur titre h1 + titre site
+Ajouter tel dans header
+Ajouter extrait enrichi:
+* author by profile.google.com/13423
+* événements
+
+
 1.0dev (unreleased)
 -------------------
 
