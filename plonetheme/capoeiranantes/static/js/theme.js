@@ -21,12 +21,19 @@ function initializeplonethemecapoeiranantes(){
     $('.container').fitVids();
     $('.section-cours-de-capoeira #content-core table td').each(function(index, value){
 		var category = $(value).text().toLowerCase();
+		console.log(category)
 		var cssclass = null;
-		if (category.match("^"+"adulte")=="adulte"){
+		if (category.match("adultes")=="adultes"){
 			cssclass = "adulte";
 		}
-		if (category.match("^"+"enfant")=="enfant"){
-			cssclass = "enfant";
+		if (category.match("jeunes")=="jeunes"){
+			cssclass = "jeune";
+		}
+		if (category.match("enfants")=="enfants"){
+			cssclass = "enfant"
+		}
+		if (category.match("ados")=="ados"){
+			cssclass = "ado"
 		}
 		if (cssclass != null){
 			$(value).addClass(cssclass);
