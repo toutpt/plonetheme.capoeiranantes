@@ -17,7 +17,7 @@
 
 <!-- HEADER -->
     <append css:content="#portal-logo" css:theme="#portal-logo-wrapper"/>
-    <append css:content-children="#headline-wrapper" css:theme="#headline-wrapper"/>
+    <append css:content="#collective-baseline" css:theme="#headline-wrapper"/>
     <append css:content="#portal-searchbox" css:theme="#portal-searchbox-wrapper" />
     <append css:content="#header-ban" css:theme="#header-ban-wrapper" />
     <append css:content="#portal-globalnav" css:theme="#portal-globalnav-wrapper"/>

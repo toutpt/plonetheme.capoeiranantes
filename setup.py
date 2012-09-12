@@ -32,6 +32,7 @@ setup(name='plonetheme.capoeiranantes',
           # -*- Extra requirements: -*-
           'Products.PloneFormGen',
           'collective.addthis',
+          'collective.baseline',
           'collective.ckeditor',
           'collective.dewplayer',
           'collective.disqus',

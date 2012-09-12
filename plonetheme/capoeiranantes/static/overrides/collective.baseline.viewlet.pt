@@ -1,0 +1,4 @@
+<div id="collective-baseline">
+ <p id="headline" tal:content="view/site_title">Cours de capoeira &agrave; Nantes</p>
+ <p id="subline" tal:content="view/site_desc">pour tous, par Professor Aventura du groupe Origem Negra</p>
+</div>

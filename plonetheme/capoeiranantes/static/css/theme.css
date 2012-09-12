@@ -12,6 +12,7 @@
 h1 {
   font-family: "SSF4 ABUKET";
   font-size: 22px;
+  text-transform: uppercase;
 }
 #portal-logo {
   margin: 0;
@@ -23,6 +24,7 @@ h1 {
   font-family: "SSF4 ABUKET";
   font-size: 30px;
   font-weight: bold;
+  text-transform: uppercase;
 }
 #portal-globalnav {
   clear: none;
