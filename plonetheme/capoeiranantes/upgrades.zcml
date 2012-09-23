@@ -7,7 +7,7 @@
     title="Apply default profile"
     description=""
     source="*"
-    destination="1004"
+    destination="1005"
     handler=".upgrades.common"
     profile="plonetheme.capoeiranantes:default"/>
 

@@ -1,4 +1,12 @@
 <?xml version="1.0"?>
 <object name="Folder">
  <property name="allow_discussion">True</property>
+ <property name="view_methods" purge="True">
+  <element value="folder_summary_view"/>
+  <element value="folder_full_view"/>
+  <element value="folder_tabular_view"/>
+  <element value="atct_album_view"/>
+  <element value="folder_listing"/>
+  <element value="galleria_view"/>
+ </property>
 </object>

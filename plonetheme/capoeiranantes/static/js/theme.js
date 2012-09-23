@@ -18,7 +18,7 @@ function initializeplonethemecapoeiranantes(){
     	controlNav: false,
     	keyboardNav: false
     });
-    $('.container').fitVids();
+    $('.container_12').fitVids();
     $('.section-cours-de-capoeira #content-core table td').each(function(index, value){
 		var category = $(value).text().toLowerCase();
 		console.log(category)
