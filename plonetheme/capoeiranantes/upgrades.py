@@ -68,3 +68,30 @@ def common(context):
 
     configure_extra(context)
     logger.info("Apply %s" % PROFILE)
+    #cleanup
+    remove_old_jqueryui(context)
+
+
+def remove_old_jqueryui(context):
+    jsregistry = getToolByName(context, 'portal_javascripts')
+    base = '++resource++jquery-ui/jquery.'
+    plugins = ['ui.core', 'ui.widget', 'ui.mouse', 'ui.position',
+               'ui.draggable', 'ui.droppable', 'ui.resizable', 'ui.selectable',
+               'ui.sortable', 'ui.accordion', 'ui.autocomplete', 'ui.button',
+               'ui.dialog', 'ui.slider', 'ui.tabs', 'ui.datepicker',
+               'ui.progressbar', 'effects.core', 'effects.blind',
+               'effects.bounce', 'effects.clip', 'effects.drop',
+               'effects.explode', 'effects.fade', 'effects.fold',
+               'effects.highlight', 'effects.pulsate', 'effects.scale',
+               'effects.shake', 'effects.slide', 'effects.transfer']
+    for plugin in plugins:
+        jsregistry.unregisterResource('%s%s.min.js' % (base, plugin))
+
+    jsregistry.unregisterResource('++resource++jquery-ui-i18n.js')
+
+    setup = getToolByName(context, 'portal_setup')
+    setup.runImportStepFromProfile('profile-collective.js.jqueryui:default',
+                               'jsregistry', run_dependencies=False,
+                               purge_old=False)
+
+    jsregistry.cookResources()

@@ -21,6 +21,7 @@
     <append css:content="#portal-searchbox" css:theme="#portal-searchbox-wrapper" />
     <append css:content="#header-ban" css:theme="#header-ban-wrapper" />
     <append css:content="#portal-globalnav" css:theme="#portal-globalnav-wrapper"/>
+    <append css:content="#banner" css:theme="#banner-wrapper"/>
 
 <!-- CONTENT -->
     <append css:content-children="#portal-column-content" css:theme="#portal-column-content"/>

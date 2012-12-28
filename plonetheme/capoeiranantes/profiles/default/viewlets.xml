@@ -8,9 +8,7 @@
   </order>
 
   <hidden manager="plone.portalheader" skinname="CapoeiraNantes Theme">
-<!-- EXAMPLE:
-    <viewlet name="plone.global_sections" />
--->
+    <viewlet name="plone.searchbox" />
   </hidden>
 
 </object>

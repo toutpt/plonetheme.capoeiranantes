@@ -1,18 +1,20 @@
 <?xml version="1.0"?>
 <metadata>
-  <version>1005</version>
+  <version>1008</version>
   <dependencies>
     <dependency>profile-plone.formwidget.recaptcha:default</dependency>
     <dependency>profile-plone.app.theming:default</dependency>
     <dependency>profile-Products.PloneFormGen:default</dependency>
     <dependency>profile-collective.addthis:default</dependency>
     <dependency>profile-collective.baseline:default</dependency>
+    <dependency>profile-collective.ckeditor:default</dependency>
     <dependency>profile-collective.googleanalytics:default</dependency>
     <dependency>profile-collective.js.fitvids:default</dependency>
     <dependency>profile-collective.js.nivoslider:default</dependency>
     <dependency>profile-collective.masonry:default</dependency>
     <dependency>profile-collective.oembed:default</dependency>
     <dependency>profile-collective.portlet.actions:default</dependency>
+    <dependency>profile-collective.portlet.fancyboxgallery:default</dependency>
     <dependency>profile-collective.portlet.oembed:default</dependency>
     <dependency>profile-collective.portlet.embed:default</dependency>
     <dependency>profile-collective.seo:default</dependency>

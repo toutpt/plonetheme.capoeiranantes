@@ -2,17 +2,25 @@
 /* ============================== */
 /* ! Default Layout   */
 /* ============================== */
-/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
+/* @font-face kit by Fonts2u (http://www.fonts2u.com)
 @font-face {
-  font-family: "SSF4 ABUKET";
-  src: url("SSF4_ABUKET.eot?") format("eot"), url("SSF4_ABUKET.woff") format("woff"), url("SSF4_ABUKET.ttf") format("truetype"), url("SSF4_ABUKET.svg#") format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
+	font-family:"SSF4 ABUKET";
+	src:url("SSF4_ABUKET.eot?") format("eot"),url("SSF4_ABUKET.woff") format("woff"),url("SSF4_ABUKET.ttf") format("truetype"),url("SSF4_ABUKET.svg#") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}*/
 h1 {
-  font-family: "SSF4 ABUKET";
-  font-size: 22px;
-  text-transform: uppercase;
+  /*    font-family: 'Bangers', cursive;
+    font-size: 33px;*/
+
+  font-family: 'BenchNine', sans-serif;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+.portletHeader {
+  font-family: 'BenchNine', sans-serif;
+  font-size: 15px;
+  letter-spacing: 1px;
 }
 #portal-logo {
   margin: 0;
@@ -21,10 +29,21 @@ h1 {
   max-width: 100%;
 }
 #headline {
-  font-family: "SSF4 ABUKET";
-  font-size: 30px;
+  /*font-family: "SSF4 ABUKET";*/
+
+  font-family: 'Bangers', cursive;
+  font-size: 55px;
+  letter-spacing: 5px;
   font-weight: bold;
   text-transform: uppercase;
+}
+#subline {
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+#banner-img {
+  width: 100%;
+  padding-bottom: 12px;
 }
 #portal-globalnav {
   clear: none;

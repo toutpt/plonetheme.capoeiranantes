@@ -36,11 +36,12 @@
       layer=".interfaces.IThemeSpecific"
       permission="cmf.ManagePortal"
       />
-<!--   <browser:page -->
-<!--         name="conversation_view" -->
-<!--         for="Products.CMFCore.interfaces.IContentish" -->
-<!--         class=".conversation.ConversationView" -->
-<!--         permission="zope2.View" -->
-<!--         layer=".interfaces.IThemeSpecific" -->
-<!--         /> -->
+    <browser:viewlet
+      name="capoeira.banner"
+      manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+      class=".banner.HeaderBanViewlet"
+      permission="zope2.View"
+      layer=".interfaces.IThemeSpecific"
+        />
+
 </configure>

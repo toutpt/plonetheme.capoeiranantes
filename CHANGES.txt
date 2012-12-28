@@ -3,9 +3,8 @@ Changelog
 
 - Album largeur à optimiser
 - faire que la portlet
-
-
 - Ajouter ssf4 sur titre h1 + titre site + uppercase
+- Fix fitvids
 
 * Ajouter tel dans header
 * Ajouter extrait enrichi:

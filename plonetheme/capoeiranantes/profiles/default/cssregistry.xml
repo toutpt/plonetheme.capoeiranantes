@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <object name="portal_css">
 
- <stylesheet id="http://fonts.googleapis.com/css?family=Bangers"/>
+ <stylesheet id="http://fonts.googleapis.com/css?family=BenchNine|Bangers"/>
 
  <stylesheet id="++theme++plonetheme.capoeiranantes/css/grid.css" expression=""/>
  <stylesheet id="++theme++plonetheme.capoeiranantes/css/theme.css" expression=""/>
@@ -12,7 +12,7 @@
 <!-- cleanup -->
  <stylesheet id="++theme++plonetheme.pnrloireanjoutouraine/css/theme.css" remove="True"/>
  <stylesheet id="++theme++plonetheme.pnrloireanjoutouraine/css/flexslider.css" remove="True"/>
-
+ <stylesheet id="gallery.css" remove="True" />
 <!-- unactivate jqueryui and gallery-->
  <stylesheet enabled="0" id="mobile.css" />
  <stylesheet enabled="0" id="columns.css" />

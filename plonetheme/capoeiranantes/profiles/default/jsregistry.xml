@@ -9,5 +9,19 @@
 
  <!-- unactivate masonry, we just want to be able to add portlets -->
  <javascript id="jquery-masonry.js" enabled="False"/>
+ <javascript id="sarissa.js" enabled="False"/>
+ <javascript id="++resource++kukit.js" enabled="False"/>
+ <javascript id="tiny_mce.js" enabled="False"/>
+ <javascript id="++resource++analytics_config.js" enabled="False"/>
+ 
+ <!-- fix some bad setp -->
+ <javascript id="++resource++jquery.nivo.slider.pack.js" cookable="True"/>
+ <!-- cleanup -->
+ <javascript id="++resource++jquery.galleriffic.js" remove="True"/>
+ <javascript id="++resource++jquery.opacityrollover.js" remove="True"/>
+ <javascript id="++resource++jquery.history.js" remove="True"/>
+ <javascript id="jquery.js" remove="True"/>
+ <javascript id="jquery-masonry.js" remove="True"/>
+ 
 
 </object>

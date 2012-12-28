@@ -1,0 +1,3 @@
+<div id="banner">
+<a tal:attributes="href string:${view/site_url}/cours-de-capoeira/inscriptions-et-tarifs"><img id="banner-img" tal:attributes="src string:${view/site_url}/cours-de-capoeira/inscriptions-et-tarifs/banner.jpg"/></a>
+</div>
