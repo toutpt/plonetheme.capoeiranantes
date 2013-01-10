@@ -13,12 +13,6 @@ function equalHeight(group) {
 }
 function initializeplonethemecapoeiranantes(){
     updateSearchBox();
-    $('.flexslider').flexslider({
-    	directionNav: false,
-    	controlNav: false,
-    	keyboardNav: false
-    });
-    $('.container_12').fitVids();
     $('.section-cours-de-capoeira #content-core table td').each(function(index, value){
 		var category = $(value).text().toLowerCase();
 		console.log(category)
@@ -39,7 +33,6 @@ function initializeplonethemecapoeiranantes(){
 			$(value).addClass(cssclass);
 		}
 	})
-	$('#myDiv1>p')
 	$('.template-folder_full_view .addthis_toolbox:last').detach().prependTo('#content-core');
 }
 jQuery(initializeplonethemecapoeiranantes);
