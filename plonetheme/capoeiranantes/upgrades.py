@@ -4,10 +4,18 @@ from plone.app.controlpanel.security import ISecuritySchema
 POLICY = 'plonetheme.capoeiranantes'
 PROFILE = 'profile-%s:default' % POLICY
 
+UNINSTALLS = ('collective.js.nivoslider',
+              'collective.js.fitvids',
+              'collective.js.imagesloaded')
+
 
 def quickinstall_addons(context, install=None, uninstall=None, upgrades=None):
     logger = logging.getLogger(PROFILE)
     qi = getToolByName(context, 'portal_quickinstaller')
+    installedProducts = qi.listInstalledProducts(showHidden=True)
+
+    if uninstall is not None:
+        qi.uninstallProducts(uninstall)
 
     if install is not None:
         for addon in install:
@@ -15,9 +23,6 @@ def quickinstall_addons(context, install=None, uninstall=None, upgrades=None):
                 qi.installProduct(addon)
             else:
                 logger.error('%s can t be installed' % addon)
-
-    if uninstall is not None:
-        qi.uninstallProducts(uninstall)
 
     if upgrades is not None:
         if upgrades in ("all", True):
@@ -62,7 +67,7 @@ def common(context):
     logger.info("Ran Plone Upgrade")
 
     #upgrades installed addons
-    quickinstall_addons(context, upgrades=True)
+    quickinstall_addons(context, upgrades=True, uninstall=UNINSTALLS)
 
     context.runAllImportStepsFromProfile(PROFILE)
 

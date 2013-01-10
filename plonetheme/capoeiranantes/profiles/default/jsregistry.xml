@@ -9,6 +9,7 @@
 
  <!-- unactivate masonry, we just want to be able to add portlets -->
  <javascript id="jquery-masonry.js" enabled="False"/>
+ <javascript id="++resource++collective.masonry/masonry.js" enabled="False"/>
  <javascript id="sarissa.js" enabled="False"/>
  <javascript id="++resource++kukit.js" enabled="False"/>
  <javascript id="tiny_mce.js" enabled="False"/>
