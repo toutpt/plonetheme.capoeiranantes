@@ -1,0 +1,15 @@
+<VirtualHost *:80>
+   ServerName ${vhost}
+   ServerAlias ${vhost}
+   ServerAdmin toutpt@gmail.com
+
+   <IfModule mod_proxy.c>
+      <Proxy *>
+         Order allow,deny
+         Allow from all
+      </Proxy>
+      ProxyTimeout 1200
+      ProxyPass       /       http://${host:balancer}:${port:balancer}/VirtualHostBase/http/${vhost}:80/Plone/VirtualHostRoot/
+      ProxyPassReverse /      http://${host:balancer}:${port:balancer}/VirtualHostBase/http/${vhost}:80/Plone/VirtualHostRoot/
+   </IfModule>
+</VirtualHost>

@@ -22,6 +22,16 @@ h1 {
   font-size: 15px;
   letter-spacing: 1px;
 }
+dl.portlet dt,
+div.portletAssignments div.portletHeader {
+  background-color: #0a6bb2;
+  color: White;
+  border: 3px solid #ffd206;
+}
+dl.portlet dt a,
+div.portletAssignments div.portletHeader a {
+  color: White!important;
+}
 #portal-logo {
   margin: 0;
 }

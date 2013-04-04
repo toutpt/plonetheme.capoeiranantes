@@ -33,9 +33,5 @@
     factory=".vignette.VignetteExtender"
     provides="archetypes.schemaextender.interfaces.ISchemaExtender"
     for="Products.ATContentTypes.interfaces.IATEvent"/>
-  <adapter
-    factory=".vignette.VignetteExtender"
-    provides="archetypes.schemaextender.interfaces.ISchemaExtender"
-    for="Products.ATContentTypes.interfaces.IATNewsItem"/>
 
 </configure>

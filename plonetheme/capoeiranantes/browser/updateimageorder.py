@@ -2,7 +2,7 @@ import logging
 
 from Products.Five.browser import BrowserView
 
-logger=  logging.getLogger('capoeira')
+logger = logging.getLogger('capoeira')
 
 
 def getdateint(image):

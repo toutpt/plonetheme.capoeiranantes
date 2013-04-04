@@ -13,7 +13,8 @@
  <stylesheet id="++theme++plonetheme.pnrloireanjoutouraine/css/theme.css" remove="True"/>
  <stylesheet id="++theme++plonetheme.pnrloireanjoutouraine/css/flexslider.css" remove="True"/>
  <stylesheet id="gallery.css" remove="True" />
- <stylesheet id="/++resource++collective.masonry/masonry.css" remove="True" />
+ <stylesheet id="++resource++collective.masonry/masonry.css" remove="True" />
+
 <!-- unactivate jqueryui and gallery-->
  <stylesheet enabled="0" id="mobile.css" />
  <stylesheet enabled="0" id="columns.css" />
