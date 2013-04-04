@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: plonetheme.capoeiranantes\n"
-"POT-Creation-Date: 2010-11-10 11:05+0000\n"
+"POT-Creation-Date: 2013-04-04 21:17+0000\n"
 "PO-Revision-Date: 2008-02-04 18:00+0000\n"
 "Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
@@ -14,3 +14,20 @@ msgstr ""
 "Language-Name: English\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: plonetheme.capoeiranantes\n"
+
+#: ./profiles/default/actions.xml
+msgid "Add event"
+msgstr ""
+
+#: ./profiles/default/actions.xml
+msgid "Add gallery"
+msgstr ""
+
+#: ./profiles/default/actions.xml
+msgid "Add news"
+msgstr ""
+
+#: ./vignette.py:43
+msgid "This image should have 765px with"
+msgstr ""
+
