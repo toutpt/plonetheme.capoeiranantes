@@ -29,9 +29,9 @@
 
   <plone:static directory="static" type="theme" />
 
-  <adapter
+<!--   <adapter
     factory=".vignette.VignetteExtender"
     provides="archetypes.schemaextender.interfaces.ISchemaExtender"
     for="Products.ATContentTypes.interfaces.IATEvent"/>
-
+ -->
 </configure>

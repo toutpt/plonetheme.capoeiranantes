@@ -14,8 +14,13 @@ def quickinstall_addons(context, install=None, uninstall=None, upgrades=None):
     qi = getToolByName(context, 'portal_quickinstaller')
     installedProducts = qi.listInstalledProducts(showHidden=True)
 
+    uninstall_copy = []
     if uninstall is not None:
-        qi.uninstallProducts(uninstall)
+        for addon in uninstall:
+            if addon in installedProducts:
+                uninstall_copy.append(addon)
+        if uninstall_copy:
+            qi.uninstallProducts(uninstall)
 
     if install is not None:
         for addon in install:
@@ -27,7 +32,6 @@ def quickinstall_addons(context, install=None, uninstall=None, upgrades=None):
     if upgrades is not None:
         if upgrades in ("all", True):
             #TODO: find which addons should be upgrades
-            installedProducts = qi.listInstalledProducts(showHidden=True)
             upgrades = [p['id'] for p in installedProducts]
         for upgrade in upgrades:
             # do not try to upgrade myself -> recursion
