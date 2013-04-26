@@ -9,7 +9,7 @@
          Allow from all
       </Proxy>
       ProxyTimeout 1200
-      ProxyPass       /       http://${host:balancer}:${port:balancer}/VirtualHostBase/http/${vhost}:80/Plone/VirtualHostRoot/
-      ProxyPassReverse /      http://${host:balancer}:${port:balancer}/VirtualHostBase/http/${vhost}:80/Plone/VirtualHostRoot/
+      ProxyPass       /       http://${host:instance1}:${port:instance1}/VirtualHostBase/http/${vhost}:80/Plone/VirtualHostRoot/
+      ProxyPassReverse /      http://${host:instance1}:${port:instance1}/VirtualHostBase/http/${vhost}:80/Plone/VirtualHostRoot/
    </IfModule>
 </VirtualHost>
