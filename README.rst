@@ -98,3 +98,4 @@ ajouter un bloc pour la créa de contenu:
 * Ajouter actualité
 * Ajouter événement
 * Ajouter album photos
+
