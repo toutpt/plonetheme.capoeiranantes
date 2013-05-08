@@ -53,4 +53,14 @@
       layer=".interfaces.IThemeSpecific"
         />
 
+    <!-- The personal bar -->
+    <browser:viewlet
+        name="plone.personal_bar"
+        manager="plone.app.layout.viewlets.interfaces.IPortalHeader"
+        class="plone.app.layout.viewlets.common.PersonalBarViewlet"
+        template="personal_bar.pt"
+        permission="zope2.View"
+        layer=".interfaces.IThemeSpecific"
+        />
+
 </configure>

@@ -22,6 +22,7 @@
     <append css:content="#header-ban" css:theme="#header-ban-wrapper" />
     <append css:content="#portal-globalnav" css:theme="#portal-globalnav-wrapper"/>
     <append css:content="#banner" css:theme="#banner-wrapper"/>
+    <after css:content="#portal-personaltools-wrapper" css:theme="#banner-wrapper" />
 
 <!-- CONTENT -->
     <append css:content-children="#portal-column-content" css:theme="#portal-column-content"/>
@@ -31,7 +32,6 @@
 <!-- FOOTER -->
     <append css:content-children="#portal-colophon" css:theme="#portal-colophon" />
     <append css:content="#portal-siteactions" css:theme="#portal-siteactions-wrapper" />
-    <append css:content="#portal-personaltools" css:theme="#portal-siteactions-wrapper" />
     <append css:content="#portlets-footer" css:theme="#portal-footer"/>
 
 </rules>

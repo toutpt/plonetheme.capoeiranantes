@@ -53,7 +53,6 @@ div.portletAssignments div.portletHeader a {
 }
 #banner-img {
   width: 100%;
-  padding-bottom: 12px;
 }
 #portal-globalnav {
   clear: none;
@@ -171,4 +170,11 @@ td.adulte {
 #portlets-footer .portlet {
   width: 250px;
   float: left;
+}
+#portal-personaltools {
+  margin-bottom: 12px;
+}
+#portal-personaltools a {
+  margin-left: 20px;
+  margin-right: 20px;
 }
