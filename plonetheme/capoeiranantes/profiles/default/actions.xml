@@ -28,7 +28,7 @@
   <object name="addphotosalbum" meta_type="CMF Action" i18n:domain="plonetheme.capoeiranantes">
    <property name="title" i18n:translate="">Add gallery</property>
    <property name="description" i18n:translate=""></property>
-   <property name="url_expr">string:${globals_view/navigationRootUrl}/albums-photos/createObject?type_name=Folder</property>
+   <property name="url_expr">string:${globals_view/navigationRootUrl}/albums-photos/createObject?type_name=Album</property>
    <property name="icon_expr"></property>
    <property name="available_expr">python:member is not None</property>
    <property name="permissions">

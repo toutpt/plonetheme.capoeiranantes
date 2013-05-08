@@ -180,6 +180,7 @@ td.adulte {
 }
 #content .eventDetails {
   width: initial;
+  max-width: 20em;
 }
 #content .eventDetails table {
   margin-bottom: 0;
