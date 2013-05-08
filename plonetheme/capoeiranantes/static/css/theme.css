@@ -178,3 +178,9 @@ td.adulte {
   margin-left: 20px;
   margin-right: 20px;
 }
+#content .eventDetails {
+  width: initial;
+}
+#content .eventDetails table {
+  margin-bottom: 0;
+}
