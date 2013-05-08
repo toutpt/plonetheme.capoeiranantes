@@ -1,11 +1,8 @@
 <div id="portal-personaltools-wrapper" class="grid_12"
-     i18n:domain="plone">
-
-<p class="hiddenStructure" i18n:translate="heading_personal_tools">Personal tools</p>
+     i18n:domain="plone" tal:condition="not: view/anonymous">
 
 <ul id="portal-personaltools"
     tal:condition="python:view.user_actions and not view.anonymous">
-  <tal:block condition="not: view/anonymous">
         <li tal:repeat="action view/user_actions"
             tal:attributes="id string:personaltools-${action/id}">
             <a href=""
@@ -16,23 +13,6 @@
                 action title
             </a>
         </li>
-  </tal:block>
-</ul>
-
-<ul id="portal-personaltools"
-    tal:condition="python:view.user_actions and view.anonymous">
-    <tal:actions repeat="action view/user_actions">
-  <li>
-        <a href=""
-           tal:attributes="href action/url;
-                           id string:personaltools-${action/id};
-                           target action/link_target|nothing;"
-           tal:content="action/title"
-           i18n:translate="">
-            action title
-        </a>
-  </li>
-    </tal:actions>
 </ul>
 
 </div>
